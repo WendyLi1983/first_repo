@@ -1,0 +1,35 @@
+What does merge branch main mean?
+When you perform a merge, you effectively merge one branch into another—typically a feature branch or bug fix branch into a main branch such as master or develop. Not only will the code changes get merged in, but also all the commits that went into the feature branch.
+
+What happens when I merge a branch?
+Merging Branches. Once you've completed work on your branch, it is time to merge it into the main branch. Merging takes your branch changes and implements them into the main branch. Depending on the commit history, Git performs merges two ways: fast-forward and three-way merge.
+
+Git has three main states that your files can reside in: modified, staged, and committed: Modified means that you have changed the file but have not committed it to your database yet. Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+About pull requests
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+
+
+
+
+at home directory
+ .gitconfig file:
+email=
+name=
+
+git config -l
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
